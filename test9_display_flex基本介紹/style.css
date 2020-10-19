@@ -1,0 +1,108 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+
+/*
+flex排版
+會有外容器Container
+裡面會有內元件items
+1.display
+2.direction
+3.justify
+4.align-item
+*/
+
+/*外層屬性
+display:必備屬性
+flex-direction:決定flex軸線
+flex-wrap:決定換行屬性
+justify-content:主要軸線的對齊
+align-items:交錯軸線的對齊
+*/
+/*內層屬性
+flex-grow:伸展比
+flex-shrink:收縮比
+flex-basis:絕對值
+order:排序
+align-self:單一個物件的交錯軸對齊
+*/
+
+/*
+想要讓元素可以並排，要在父元素(Container)下display:flex的語法
+內元素items寬度會照父元素自動依比例去調整
+每個items預設是等高
+*/
+
+.container{
+    display:flex;
+    background:black;
+    width:500px;
+    margin: 0 auto;
+    padding:10px
+  }
+  
+  .item{
+    width:100px;
+    background:yellow;
+    font-size:36px;
+    text-align:center;
+    margin:10px;
+  }

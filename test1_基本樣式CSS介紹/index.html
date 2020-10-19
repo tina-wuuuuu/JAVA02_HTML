@@ -1,0 +1,77 @@
+
+<!--Emmet快速產生html環境 !+enter/!+tab-->
+<!--Emmet快速產生段落 p*?按enter/tab就可以產生?個段落-->
+<!--Emmet快速產生img標籤 img按enter/tab就可以產生 <img src="" alt=""> -->
+<!--html:結構 css:樣式-->
+
+<!DOCTYPE html>
+<!--設定網頁顯示格式是html 5格式-->
+
+<html lang="en">
+<!--表示html屬性語系是英文-->
+
+<head>
+    <!--meta表示細部的資料-->
+    <meta charset="UTF-8">
+    <!--把網頁格式編碼改成utf8編碼-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--支援行動版網頁設計格式針對螢幕解析度來做腳本優化-->  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--針對舊版IE 更新到最新版-->
+    <title>Yahoo新聞</title>
+
+    <!--連結到css link:css+enter-->
+    <link rel="stylesheet" href="style.css">
+    <!--rel="stulesheet"設定關於css樣式 href連結位置-->
+</head> 
+
+<body>
+    
+    <h1> NEWS</h1>
+    <ul>
+        <li>項目一</li>
+        <li>項目二</li>
+        <li>項目三</li>
+    </ul>
+    <!--用ul包住li 建立一個無序主題式列表(圓點)-->
+
+    <ol>
+        <li>項目一</li>
+        <li>項目二</li>
+        <li>項目三</li>
+    </ol>
+    <!--用ul包住li 建立一個有序主題式列表(數字)-->
+
+    <a href="https://www.google.com/">連到Google</a>
+    <!--建立連結-->
+    <a title="連到Yahoo" target="_blank" href="https://www.yahoo.com/">連到Yahoo</a>
+    <!--target屬性="_blank開啟新的頁面 href屬性="連結網址" title屬性滑鼠游標移到連結時跳出提示顯示的文字-->
+
+    <!--p*?按enter/tab就可以產生?個段落-->
+    <p>
+        距離<a title="連到Google" target="_blank" href="https://www.google.com/">美國總統大選</a>不到1個月，許多媒體民調顯示美國總統川普支持度落後民主黨候選人拜登。對此，有港媒認為，川普為了連任有可能冒險在外交上承認台灣，成為戰時總統（wartime president）以挽救選情，到時真的就上演最大的「十月驚奇」！
+    </p>
+    <p>
+        <a title="連到Yahoo" target="_blank" href="https://www.yahoo.com/">美國總統</a>
+        川普正苦於鞏固他的軍眷鐵票，但他今天卻暗指是在白宮接見美軍陣亡將士遺族時被對方傳染新型冠狀病毒。
+    </p>
+    <!--lorem+?+enter/tab 快速產生?個單字-->
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, eum!
+    </p>
+    <p class="style1">
+        段落一
+    </p>
+    <a href="#" class="pink">連結</a>
+    <a href="#" class="style1">連結</a>
+    <ul>
+        <li>li</li>
+        <li class="pink" >li</li>
+    </ul>
+    <img src="img/logo.png" alt="logo">
+    <!--src屬性="index.html所在位置相對應的圖片路徑"-->
+    <!--alt當圖片顯示不出來才會出現的文字/給視障人士使用播報比較友善的詳細說明-->
+    <img src="https://lh3.googleusercontent.com/proxy/8kpldoq6ecrzC8_05HCrPIlTsPLK5rnaxwm_e9NQUR1SkZyvZ2eqtpEkBaqdzVpJroBZFZMKzJNxLwKX9IJkBBwlVSkuXP7zRsaAsahI9WG2O3h97ndoYA" alt="">
+    <!--不用本地端(自己的伺服器)的圖片 在網頁(第三方伺服器)上的圖按右鍵複製連結網址-->
+</body>
+</html>

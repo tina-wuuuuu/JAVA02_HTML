@@ -1413,3 +1413,10 @@ textarea:focus ~ .highlight {
 /* The End */
 
 /*# sourceMappingURL=style.css.map */
+
+.col-12 img{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: lemonchiffon;
+  border-left: 10px solid rgb(223, 243, 183);
+}

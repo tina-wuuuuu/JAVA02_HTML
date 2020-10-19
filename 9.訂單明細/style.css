@@ -1,0 +1,189 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+.description{
+    width: 300px;
+    box-shadow:0px 0px  1px lightgray;
+
+}
+
+.shopping_list{
+    margin-top: 20px;
+    width: 300px;
+    box-shadow:0px 0px  1px lightgray;
+
+}
+
+.content{
+    width: 320px;
+    height: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+
+
+}
+
+.de_1 {
+    width:300px ;
+    height: 72px;
+    background-color: #e7eeea;
+    
+    
+}
+
+.de_1 h2{
+    font-size: 24px;
+    color: #a0b2a4;
+    padding: 23px 100px 25px 100px;
+    font-weight:700;
+}
+
+.de_2{
+    width: 300px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 17px 15px 15px;
+    box-sizing: border-box;
+}
+
+.item1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.item1 p{
+    color: #829886;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item1_t p{
+    color: #829886;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+
+.item1_t{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+
+.sl_1{
+    background-color: #e7eeea;
+    width: 300px;
+    height: 67px;
+   
+
+}
+
+.sl_1 h2{
+    color: #a0b2a4;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 23px 100px 25px 100px;
+ 
+}
+
+.sl_2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 17px;
+
+}
+
+.item2{
+    display: flex;
+    
+}
+
+.it2_img{
+    margin: 15px 18px 0px 16px;
+}
+
+.item2 img{
+    width: 120px;
+    height: 70px;
+  
+}
+
+.it2_p{
+    margin-top: 27px;
+}
+
+.it2_p p{
+    color: #a0b2a4;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price{
+    margin-top: 12px;
+}
+
+
+

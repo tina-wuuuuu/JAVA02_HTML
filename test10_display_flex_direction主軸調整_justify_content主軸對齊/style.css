@@ -1,0 +1,99 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+/*flex主軸 預設左到右去做排版*/
+/*
+flex-direction:row(default)預設:左到右
+flex-direction:row-reverse右到左
+flex-direction:column上到下
+flex-direction:column-reverse下到上
+*/
+/*justify-content決定主軸對齊方式
+justify-content:row(default)
+justify-content:flex-start靠著起點對齊(左邊)
+justify-content:center左右留白(置中)
+justify-content:around中間留白比較多左右邊留白較少
+justify-content:flex-end靠著終點對齊(右邊)
+justify-content:space-between最左最右邊貼齊
+justify-content:space-evenly左右邊中間留白一模一樣
+*/
+/*direction是items的流向*/
+/*justify-content是主軸對齊方式
+依照direction流向作改變*/
+.container{
+    width:500px;
+    margin:0 auto;
+    background:#004466;
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+  }
+  
+  .item{
+    width:100px;
+    background:#00ffaa;
+    margin-left:10px;
+    margin-right:10px
+    color:#004466;
+    font-size:36px;
+    text-align:center;
+  }

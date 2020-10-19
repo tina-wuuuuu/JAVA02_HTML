@@ -1,0 +1,28 @@
+.wrap{
+    width: 500px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    height: 50px;
+    background-color: burlywood;
+  }
+
+.content{
+    background-color: blanchedalmond ;
+}
+
+.content p {
+    color: white;
+    padding: 20px;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    /*text-aling文字對齊:center置中*/
+    background-color: beige;
+}

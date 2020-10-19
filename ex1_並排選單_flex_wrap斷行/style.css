@@ -1,0 +1,102 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+
+/*align-items交錯軸對齊
+align-items:flex-start交錯軸往上對齊
+align-items:center交錯軸垂直置中
+align-items:stretch交錯軸上下填滿(滿版)
+align-items:flex-end交錯軸往下對齊
+align-items:baseline
+*/
+/*
+主軸左右x
+交錯軸上下y
+*/
+.menu{
+    width:600px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .menu li{
+    width:100px;
+    text-align:center;
+    border:1px solid #000;
+  }
+  
+  .menu li a{
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-decoration:none;
+    background:#00ffa2;
+    color:#004466;
+  }
+  
+  .menu li a:hover{
+    background:#004466;
+    color:#00ffa2;
+  }
+  
+  /*VS code套件Preview on Web Server當VS儲存網頁也跟著變動*/

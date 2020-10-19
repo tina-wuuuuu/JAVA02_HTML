@@ -1,0 +1,152 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+.header{
+    display: flex;
+    background-color: #e7eeea;
+    height: 90px;
+    width: 1280px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h_img img{
+    margin-left: 40px;
+    margin-right: 500px;
+}
+
+.h_hapc{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 50px;
+    margin-left: 15px;
+    box-sizing: border-box;
+
+    
+}
+
+.h_hapc a{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    display: block;
+    color: #37523d;
+    font-size:larger;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.content{
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+.content h2{
+    margin-top: 78px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.content p{
+    margin-top:20px ;
+}
+.p1{
+    width: 604px;
+    height: 48px;
+    border: 1px solid #37523d;
+}
+
+.content img{
+    margin-top: 20px;
+}
+
+.p2{
+    width: 604px;
+    height: 48px;
+    border: 1px solid #37523d;
+    margin-bottom: 95px;
+}
+
+.footer{
+    width: 1277px;
+    height: 55px;
+    background-color: #37523d;
+}
+
+.f_hapc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_hapc a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,155 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+.wrap{
+	margin: 0 auto;
+	width:800px;
+}
+
+.header{
+	margin-bottom: 30px;
+}
+
+.header img{
+	margin-top: 10px;
+	padding: 10px;
+	height: 100px;
+	background-color: lemonchiffon;
+	
+}
+
+.h_imgh1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.content_two{
+	display: flex;
+}
+
+.content_two img{
+	height: 300px;
+	width: 250px;
+}
+
+.c_ul1 li{
+	background-color: lightcyan;
+	
+}
+
+.c_ul1 ul{
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.c_ul1 a{
+	color: rgba(32, 29, 221, 0.397);	
+	margin-left: 5px;
+	display: block;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 50px;
+	text-align: center;
+}
+
+.c_ul1 a:hover{
+	background-color: rgb(60, 11, 236);
+	color: white;
+}
+
+.item_img{
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: center;
+
+}
+
+.item_img h2{
+	padding-top: 10px;
+	text-align: center;
+	color: brown;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+.item{
+	margin: 20px;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+
+
+
+.item img{
+	width: 200px;
+	height: 200px;
+}

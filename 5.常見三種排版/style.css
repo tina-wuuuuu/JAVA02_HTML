@@ -1,0 +1,249 @@
+
+/*
+body{
+    margin: 0;
+}
+覆蓋瀏覽器原本樣式
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset語法 上網查的*/
+
+/*以下再開始寫自己的CSS語法*/
+
+
+.c_three{
+    margin-left: 5px;
+    width: 1400px;
+    margin-top: 5px;
+    display: flex;
+    background-color: #e7eeea;
+    box-sizing: border-box;
+
+}
+
+.item{
+    display: flex;
+}
+
+.i_1 img{
+    height: 60px;
+    width: 75px;
+    margin-left: 40px;
+    margin-top: 17px;
+    box-sizing: border-box;
+    
+}
+
+.item h2{
+    width: 170px;
+    height: 25px;
+    border: 1px solid #37523d;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.item p {
+    width: 309px;
+    height: 78px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #37523d;
+    box-sizing: border-box;
+}
+
+
+.c_two{
+    margin-left: 5px;
+    width: 1400px;
+    display: flex;
+    margin-top: 47px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    background-color: #e7eeea;
+    box-sizing: border-box;
+}
+
+.ct{
+    display: flex;
+}
+
+.c_three2{
+    margin-left: 5px;
+    width: 1400px;
+    margin-top: 46px;
+    display: flex;
+    background-color: #e7eeea;
+    box-sizing: border-box;
+
+}
+
+.ct2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct2 img{
+    width: 95px;
+    height: 94px;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-sizing: border-box;
+}
+.ct2 h2{
+    width: 171px;
+    height: 26px;
+    margin-top: 5px;
+    margin-left: 135px;
+    border: 1px solid #37523d;
+    box-sizing: border-box;
+}
+
+.ct2 p{
+    margin-top: 20px;
+    width: 361px;
+    height: 67px;
+    margin-left: 40px;
+    border: 1px solid #37523d;
+    margin-bottom: 27px;
+    box-sizing: border-box;
+}
+
+.item2_1{
+    display: flex;
+    margin-left: 40px;
+    box-sizing: border-box;
+
+}
+
+.item2{
+    display: flex;
+    margin-left: 60px;
+    box-sizing: border-box;
+
+}
+
+.c_two h2{
+    width: 176px;
+    height: 23px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.c_two p{
+    width: 1012px;
+    height: 22px;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+.ctw_1{
+    display: flex;
+    align-items: center;
+
+}
+.ctw_2{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    
+}
+
+.ctw_1 img{
+    width: 139px;
+    height: 135px;
+    margin-left: 29px;
+    margin-top: 26px;
+    box-sizing: border-box;
+}
+
+.i1h2p{
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.i1h2p h2{
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.i1h2p p{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.ctw_2 img{
+    width: 139px;
+    height: 135px;
+    margin-right: 20px;
+    margin-top: 26px;
+    box-sizing: border-box;
+}
+
+.i2h2p{
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.i2h2p h2{
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.i2h2p p{
+    margin-top: 20px;
+    margin-bottom: 57px;
+    box-sizing: border-box;
+}

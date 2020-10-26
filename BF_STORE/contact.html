@@ -13,9 +13,9 @@
     <!--針對移動網頁優化過的頁面的viewport meta標籤-->
     <!--讓網頁的寬度自動適應手機屏幕的寬度,在iOS9中要想起作用就加上"shrink-to-fit=no"-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
+
     <!-- Title -->
-    <title >B.F Store</title>
+    <title>B.F Store</title>
 
     <!--<link> icon 是用來設定網頁 Favicon (favorites icon)，Favicon 就是會出現在瀏覽器頁籤或書籤 (我的最愛) 上面的小圖示。-->
     <!-- Favicon -->
@@ -28,9 +28,9 @@
 </head>
 
 <body>
-   <header>
+    <header>
         <!-- Top Header Area -->
-        <div class="top-header" style="background-color: yellow;">
+        <div class="top-header">
             <div class="container h-100">
                 <!--row 要加上 h-100 才能作為內部區塊的高度比較基準-->
                 <!--align-items-center交錯軸的對齊設定-->
@@ -40,11 +40,11 @@
                         <div class="breaking-news-area">
                             <div id="breakingNewsTicker" class="ticker">
                                 <ul>
-                                    <li><a href="#">Do whatever your want!</a></li>
-                                    <li><a href="#">Because you deserve!</a></li>
-                                    <li><a href="#">Fearless!</a></li>
-                                    <li><a href="#">Be Brave!</a></li>
-                                    <li><a href="#">Wear your own style!</a></li>
+                                    <li><a href="product.html">Do whatever your want!</a></li>
+                                    <li><a href="product.html">Because you deserve!</a></li>
+                                    <li><a href="product.html">Fearless!</a></li>
+                                    <li><a href="product.html">Be Brave!</a></li>
+                                    <li><a href="product.html">Wear your own style!</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                 <div class="row h-100 align-items-center">
                     <!--Column 的格數（最多到 12），col-12一列希望有 12 個相等-->
                     <div class="col-12">
-                    <!--LOGO圖-->
+                        <!--LOGO圖-->
                         <a href="index.html" class="original-logo"><img src="img/core-img/logo.png" alt=""></a>
                     </div>
                 </div>
@@ -76,15 +76,9 @@
                     <!--justify-content-between均匀排列每個元素
                                    首個元素放置起點，末置元素放置於终点-->
                     <nav class="classy-navbar justify-content-between">
-
-                        <!-- login btn -->
-                        <!--<a href="login.html" alt="" class="login-btn" data-toggle="modal" data-target="#subsModal" >data-toggle指以什麼事件觸發，常用的如modal,popover,tooltips等，data-target指事件的目標,你這段程式碼的意思就是指將#signin-signup-tab這個Dom元素的內容以模態框的形式展示。-->
-                        <!--padding 上 右 下 左-->
-                        <div class="login-btn" style=" text-align:end ; background-color:paleturquoise ; padding: 10px 10px 0px 10px;" >
-                        <a href="login.html" alt="" class="login-btn"><h4>Login</h4></a>
+                        <div>
                         </div>
-
-                        <!-- Menu --> 
+                        <!-- Menu -->
                         <div class="classy-menu" id="rowNav">
                             <!-- Nav Start -->
                             <div class="classynav">
@@ -92,18 +86,13 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="product.html">Product</a>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html">Location</a></li>
                                 </ul>
 
                                 <!-- Search Form  -->
-                                <!--搜尋-->
-                                <div id="search-wrapper">
-                                    <form action="#">
-                                        <!--placeholder預設顯示-->
-                                        <input type="text" id="search" placeholder="Search something...">
-                                        <div id="close-icon"></div>
-                                        <input class="d-none" type="submit" value="">
-                                    </form>
+                                <!--enjoy-->
+                                <div id="enjoy_img">
+                                    <img src="img/bg-img/enjoy.jfif">
                                 </div>
                             </div>
                         </div>
@@ -115,124 +104,35 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Contact Area Start ##### -->
-    <br>
-    <section>
-        <!-- // CATEGORY NAV -->
-        <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1594882074054" id="page-566d5b8fe0327c1e778e36c2"><div class="row sqs-row">
-            <div class="col sqs-col-12 span-12" >
-                <divstyle="background-color: rgb(253, 253, 166);">
-                    <!--中間的線-->
-                    <div class="sqs-block-content" ><hr /></div></div>
-                    <div class="sqs-block html-block sqs-block-html" data-block-type="2" style="background-color: rgb(255, 255, 226); >
-                        <div class="sqs-block-content">
-                            <div class="imgll align-items-center">
-                                <img src="img/about-img/2.jpg" alt="">
-                                <img src="img/about-img/3.jpg" alt="">
-                                <img src="img/about-img/4.jpg" alt="">
-                                <img src="img/about-img/5.jpg" alt="">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="contact-area section-padding-100" >
-        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_5_1450635367654_111972">
-            <div class="sqs-block-content" >
-                <p style="text-align:center" class="information">
-                    <h1 style="text-align: center;">門市資訊</h1>
-                </p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="sqs-block-content"><hr /></div></div>
-                <!--中間的線-->
-                <div class="sqs-block-content"><hr /></div></div>
-                <div class="sqs-block html-block sqs-block-html" data-block-type="2" >
-                    <div class="sqs-block-content">
-                        <p style="text-align:center" class="">
-                           <strong>B.F Store</strong><br>
-                           地址│台北市士林區<br>
-                           電話│(02)1234-5566<br>
-                           時間│週日至週四 11:00-21:30、週五至週六 11:00-22:00
-                       </p> 
-                    </div>
-                </div>
-               </div>
-           </div>
-                <!-- Contact Form Area -->
-                <div class="col-12 col-md-10 col-lg-9">
-                    
-                    <br>
-                    <br>
-                    <div class="contact-form">
-                        <h5>Get in Touch</h5>
-                        <!-- Contact Form -->
-                        <form action="#" method="post">
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="group">
-                                        <input type="text" name="name" id="name" required>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="group">
-                                        <input type="email" name="email" id="email" required>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="group">
-                                        <input type="text" name="subject" id="subject" required>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="group">
-                                        <textarea name="message" id="message" required></textarea>
-                                        <span class="highlight"></span>
-                                        <span class="bar"></span>
-                                        <label>Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn original-btn">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="col-12 col-md-10 col-lg-9">
-    </div>
+    <hr>
 
-    <section>
-        <div style="text-align: center;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221565.94118298183!2d121.3339407159071!3d25.025839284664613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aeb1c4fdaf05%3A0xe7c26dbe86e7f929!2z5aOr5p6X5aSc5biC!5e0!3m2!1szh-TW!2stw!4v1600101520388!5m2!1szh-TW!2stw" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
-        </div>    
-    </section>
+    <!-- Contact Form Area -->
+
+
+    <div class="contact_content">
+        
+        <div style="text-align: center;" class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221565.94118298183!2d121.3339407159071!3d25.025839284664613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aeb1c4fdaf05%3A0xe7c26dbe86e7f929!2z5aOr5p6X5aSc5biC!5e0!3m2!1szh-TW!2stw!4v1600101520388!5m2!1szh-TW!2stw"
+                width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <br>
+            <p>Store Location</p>
+        </div>
+        <div class="img">
+            <img src="img/bg-img/pic.png">
+        </div>
+    </div>
     <!-- ##### Contact Area End ##### -->
 
-  <br>
-                              
+    <br>
+
     <footer style="text-align: center;">
-   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-   <p>Be Brave & Fearless
-        <small>&copy;2020 B.F.Store. All Rights Reserved</small>
-    </p>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        <p>Be Brave & Fearless
+            <small>&copy;2020 B.F.Store. All Rights Reserved</small>
+        </p>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
     </footer>
     <!-- ##### Footer Area End ##### -->
 
@@ -247,7 +147,7 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
- 
+
 </body>
 
 </html>
